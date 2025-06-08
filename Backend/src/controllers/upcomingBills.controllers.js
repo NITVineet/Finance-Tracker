@@ -216,3 +216,13 @@ const listUpcoming = asyncHandler(async (req,res)=>{
 }
 
 )
+export{
+    markPaid,
+    listUpcoming,
+    createBill,
+    getBills,
+    updateBill,
+    deleteBill,
+    getSingleBill,
+    listBills
+}
